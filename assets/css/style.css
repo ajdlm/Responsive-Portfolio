@@ -229,7 +229,7 @@ input, textarea {
     }
 
     .header-right {
-        /*padding-top*/
+        padding-top: 32px;
     }
 
     /*redefined the width of these two classes so that
