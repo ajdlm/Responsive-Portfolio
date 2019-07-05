@@ -164,6 +164,7 @@ and looked wrong to me*/
     margin-left: 30px;
     padding: 18px 0;
     width: 300px;
+    font-size: 24px;
     font-weight: normal;
     font-family: 'Georgia', Times, "Times New Roman", serif;
     text-align: center;
@@ -260,9 +261,30 @@ input, textarea {
         line-height: 65px;
         font-size: 10px;
     }
+    
+    .portfolio-picture {
+        width: 250px;
+        height: auto;
+    }
+    
+    .project-container{
+        margin-right: 86px;
+    }
+    
+    .project-title {
+        font-size: 22px;
+        padding: 16px 0;
+        width: 250px;
+    }
 }
 
 @media screen and (max-width: 768px) {
+    html, body {
+        min-width: 640px;
+        max-width: 768px;
+    }
+
+
     .header-right {
         padding-top: 36px;
     }
