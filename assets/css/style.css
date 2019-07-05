@@ -229,7 +229,7 @@ input, textarea {
     }
 
     .header-right {
-        padding-top: 32px;
+        padding-top: 35px;
     }
 
     /*redefined the width of these two classes so that
@@ -263,6 +263,7 @@ input, textarea {
     .copyright {
         margin-top: auto;
         line-height: 65px;
+        font-size: 10px;
     }
 }
 
