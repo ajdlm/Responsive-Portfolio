@@ -224,8 +224,8 @@ input, textarea {
 
     /*Changed the font size here so that it aligns with the
     profile picture in an aesthetically pleasing way*/
-    .header-right, p {
-        font-size: 17.5px;
+    .right-link, p {
+        font-size: 16px;
     }
 
     .header-right {
@@ -246,7 +246,7 @@ input, textarea {
     page and leave empty space on the right (as in the
     homework photo)*/
     .container {
-        width: 640px;
+        width: 600px;
         margin: auto auto auto 0;
     }
 
