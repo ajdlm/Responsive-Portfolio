@@ -146,14 +146,14 @@ and looked wrong to me*/
 }
 
 .row {
-    padding: 12px 0 38px 0;
+    padding: 12px 0 38px;
 }
 
 .portfolio-project {
     padding: 0 30px;
 }
 
-.project-container{
+.project-container {
     width: 200px;
     position: relative;
     display: inline-block;
@@ -252,14 +252,18 @@ input, textarea {
         width: 512px;
     }
 
+    footer {
+        height: 90px;
+    }
+
     /*Removed the margin that had been pushing the text to
     the bottom of the footer, then gave it a line-height
     equal to the heigh of the footer so it would be vertically
     aligned in the middle like in the homework photo*/
     .copyright {
         margin-top: auto;
-        line-height: 65px;
-        font-size: 10px;
+        line-height: 90px;
+        font-size: 11px;
     }
     
     .portfolio-picture {
@@ -267,7 +271,7 @@ input, textarea {
         height: auto;
     }
     
-    .project-container{
+    .project-container {
         margin-right: 86px;
     }
     
@@ -284,12 +288,28 @@ input, textarea {
         max-width: 768px;
     }
 
+    .right-link, p {
+        font-size: 17px;
+    }
+
+    header {
+        height: 85px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .h1-below {
+        margin-bottom: 22.5px;
+    }
+
     .header-text, .header-width {
         width: 700px;
     }
 
-    .right-link, p {
-        font-size: 14px;
+    .header-right {
+        padding-top: 32.5px;
     }
 
     #index-link {
@@ -307,11 +327,36 @@ input, textarea {
     .container {
         width: 700px;
     }
+
+    #profile-picture {
+        padding-bottom: 20px;
+    }
+
+    .row {
+        padding: 18px 0 20px;
+    }
+
+    .portfolio-picture {
+        width: 300px;
+    }
+
+    .project-container {
+        margin-right: 136px;
+    }
+
+    #project-container-bottom {
+        margin-bottom: 10px;
+    }
+
+    .project-title {
+        width: 300px;
+    }
+
+    input, textarea {
+        width: 612px;
+    }
 }
 
 @media screen and (max-width: 640px) {
 
-    .header-right {
-        padding-top: 36px;
-    }
 }
