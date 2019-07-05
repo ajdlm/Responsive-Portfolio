@@ -266,7 +266,7 @@ input, textarea {
     /*Reduced width of inputs and text area so they remained
     aligned with the contents of .container*/
     input, textarea {
-        width: 512px;
+        width: 518px;
         font-size: 13px;
         padding: 4.5px 9px;
     }
@@ -274,6 +274,11 @@ input, textarea {
     #contact-form {
         font-size: 17.5px;
         line-height: 1.75;
+    }
+
+    #form-message {
+        height: 182px;
+        resize: auto;
     }
 
     #form-submit {
