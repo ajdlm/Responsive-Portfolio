@@ -188,7 +188,7 @@ and looked wrong to me*/
 input, textarea {
     color: #777777;
     font-size: 18px;
-    width: 876px;
+    width: 872px;
     line-height: 1.5;
     padding: 4.5px 12px;
     border: 2px solid #dddddd;
@@ -216,7 +216,6 @@ input, textarea {
 }
 
 @media screen and (max-width: 980px) {
-
     html, body {
         min-width: 768px;
         max-width: 980px;
@@ -226,10 +225,6 @@ input, textarea {
     profile picture in an aesthetically pleasing way*/
     .right-link, p {
         font-size: 16px;
-    }
-
-    .header-right {
-        padding-top: 35px;
     }
 
     /*redefined the width of these two classes so that
@@ -253,7 +248,7 @@ input, textarea {
     /*Reduced width of inputs and text area so they remained
     aligned with the contents of .container*/
     input, textarea {
-        width: 556px;
+        width: 512px;
     }
 
     /*Removed the margin that had been pushing the text to
@@ -268,7 +263,9 @@ input, textarea {
 }
 
 @media screen and (max-width: 768px) {
-
+    .header-right {
+        padding-top: 36px;
+    }
 }
 
 @media screen and (max-width: 640px) {
