@@ -217,9 +217,26 @@ input, textarea {
 }
 
 @media screen and (max-width: 980px) {
+
     html, body {
         min-width: 768px;
         max-width: 980px;
+    }
+
+    header {
+        height: 85px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .h1-below {
+        margin-bottom: 22.5px;
+    }
+
+    .header-right {
+        padding-top: 33.5px;
     }
 
     /*Changed the font size here so that it aligns with the
@@ -250,6 +267,18 @@ input, textarea {
     aligned with the contents of .container*/
     input, textarea {
         width: 512px;
+        font-size: 13px;
+        padding: 4.5px 9px;
+    }
+
+    #contact-form {
+        font-size: 17.5px;
+        line-height: 1.75;
+    }
+
+    #form-submit {
+        font-size: 17.5px;
+        padding: 10px 28px;
     }
 
     footer {
@@ -283,6 +312,7 @@ input, textarea {
 }
 
 @media screen and (max-width: 768px) {
+
     html, body {
         min-width: 640px;
         max-width: 768px;
@@ -290,18 +320,6 @@ input, textarea {
 
     .right-link, p {
         font-size: 17px;
-    }
-
-    header {
-        height: 85px;
-    }
-
-    h1 {
-        font-size: 28px;
-    }
-
-    .h1-below {
-        margin-bottom: 22.5px;
     }
 
     .header-text, .header-width {
