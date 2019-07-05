@@ -284,12 +284,34 @@ input, textarea {
         max-width: 768px;
     }
 
+    .header-text, .header-width {
+        width: 700px;
+    }
 
-    .header-right {
-        padding-top: 36px;
+    .right-link, p {
+        font-size: 14px;
+    }
+
+    #index-link {
+        padding-right: 16px;
+    }
+
+    #portfolio-link {
+        padding: 0 16px;
+    }
+
+    #contact-link {
+        padding-left: 16px;
+    }
+
+    .container {
+        width: 700px;
     }
 }
 
 @media screen and (max-width: 640px) {
 
+    .header-right {
+        padding-top: 36px;
+    }
 }
