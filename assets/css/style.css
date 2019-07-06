@@ -376,10 +376,42 @@ input, textarea {
     }
 
     input, textarea {
-        width: 612px;
+        width: 618px;
     }
 }
 
 @media screen and (max-width: 640px) {
+    html, body {
+        max-width: 640px;
+    }
 
+    .header-text {
+        width: 640px;
+    }
+    
+    .header-width {
+        width: 570px;
+    }
+
+    .container {
+        width: 570px;
+    }
+
+    .header-heading-container {
+        float: none;
+        width: 100%;
+    }
+
+    .header-heading {
+        width: 640px;
+        padding: 100% 30px 35px;
+    }
+
+    .header-right {
+        float: none;
+    }
+
+    input, textarea {
+        width: 488px;
+    }
 }
