@@ -444,6 +444,10 @@ input, textarea {
         /*width: 502.5px;*/
     }
 
+    .porfolio-picture {
+        position: absolute;
+    }
+
     .project-title {
         padding: 20px 0;
     }
