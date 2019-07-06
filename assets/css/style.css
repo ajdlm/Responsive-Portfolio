@@ -388,14 +388,15 @@ input, textarea {
 
     .header-text {
         width: 100%;
+        overflow-wrap: auto;
     }
     
     .header-width {
-        width: 570px;
+        width: 80%;
     }
 
     .container {
-        width: 570px;
+        width: 80%;
     }
 
     .header-heading-container {
