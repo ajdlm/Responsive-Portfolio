@@ -387,7 +387,7 @@ input, textarea {
     }
 
     .header-text {
-        width: 640px;
+        width: 100%;
     }
     
     .header-width {
@@ -404,7 +404,7 @@ input, textarea {
     }
 
     .header-heading {
-        width: 640px;
+        width: 100%;
         padding: 100% 30px 35px;
     }
 
