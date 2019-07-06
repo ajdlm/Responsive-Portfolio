@@ -417,19 +417,21 @@ input, textarea {
         top: -25px;
         display: block;
         text-align: center;
-        width: 580px;
-        padding: 30px 30px 0;
+        height: 55px;
+        width: 100%;
+        padding: 20px 0 0;
     }
 
     .header-right {
         float: none;
-        margin-top: 90px;
+        margin-top: 50px;
         display: inline-block;
         vertical-align: bottom;
         width: 100%;
-    text-align: center;
-    padding-bottom: 20px;
-    border: 1px;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        border-bottom: 2px solid #cccccc;
     }
 
     input, textarea {
