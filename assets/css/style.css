@@ -383,6 +383,7 @@ input, textarea {
 @media screen and (max-width: 640px) {
     html, body {
         max-width: 640px;
+        min-width: none;
     }
 
     .header-text {
