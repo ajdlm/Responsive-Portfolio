@@ -104,6 +104,7 @@ header {
     width: 960px;
     margin: auto;
 }
+
 .container {
     width: 960px;
     margin: auto;
@@ -381,14 +382,18 @@ input, textarea {
 }
 
 @media screen and (max-width: 640px) {
+
     html, body {
         max-width: 640px;
         min-width: 1px;
     }
 
+    header {
+        overflow: visible;
+    }
+
     .header-text {
         width: 100%;
-        overflow-wrap: auto;
     }
     
     .header-width {
@@ -397,20 +402,34 @@ input, textarea {
 
     .container {
         width: 100%;
+        margin-top: 200px;
     }
 
     .header-heading-container {
         float: none;
         width: 100%;
+        display: inline-block;
+        vertical-align: top;
     }
 
     .header-heading {
-        width: 100%;
-        padding: 100% 30px 35px;
+        position: absolute;
+        top: -25px;
+        display: block;
+        text-align: center;
+        width: 580px;
+        padding: 30px 30px 0;
     }
 
     .header-right {
         float: none;
+        margin-top: 90px;
+        display: inline-block;
+        vertical-align: bottom;
+        width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+    border: 1px;
     }
 
     input, textarea {
