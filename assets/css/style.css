@@ -428,7 +428,7 @@ input, textarea {
         text-align: center;
         height: 9vw;
         width: 100%;
-        padding: 19px 0 6px;
+        padding: 20px 0 7px;
     }
 
     .header-right {
@@ -438,8 +438,8 @@ input, textarea {
         vertical-align: bottom;
         width: 100%;
         text-align: center;
-        padding-top: 4vw;
-        padding-bottom: 3vw;
+        padding-top: 4.5vw;
+        padding-bottom: 3.5vw;
         border-bottom: 2px solid #cccccc;
     }
 
