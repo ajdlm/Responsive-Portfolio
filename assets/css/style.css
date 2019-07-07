@@ -436,6 +436,7 @@ input, textarea {
 
     input, textarea {
         width: 100%;
+        border: 1px solid #dddddd;
     }
 
     #contact-form-container {
