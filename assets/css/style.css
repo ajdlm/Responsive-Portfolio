@@ -386,8 +386,6 @@ input, textarea {
     html, body {
         max-width: 640px;
         min-width: 1px;
-        overflow-x: hidden;
-        overflow-y: auto;
     }
 
     header {
@@ -464,7 +462,7 @@ input, textarea {
     }
 
     .project-container {
-        margin-right: 60px;
+        margin-right: 0;
         width: 100%;
         padding: 18px 60px 0 0;
         box-sizing: border-box;
