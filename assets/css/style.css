@@ -427,9 +427,9 @@ input, textarea {
         text-align: center;
         height: 55px;
         width: 100%;
-        padding: calc(5% - 1.5vw) 0 1vw;
+        /*padding: calc(7% - 2vw) 0 1vw;*/
         /*padding: calc(5vw - 10px) 0 3px;*/
-        /*padding: 17px 0 3px;*/
+        padding: 17px 0 3px;
     }
 
     .header-right {
@@ -471,7 +471,7 @@ input, textarea {
     }
 
     #profile-picture-container {
-        height: 420px;
+        height: 400px;
         margin-bottom: 20px;
         overflow: hidden;
     }
