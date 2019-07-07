@@ -436,7 +436,7 @@ input, textarea {
 
     input, textarea {
         width: 100%;
-        border: 1px solid #dddddd;
+        border: 2px solid #dddddd;
         background-clip: padding-box;
     }
 
