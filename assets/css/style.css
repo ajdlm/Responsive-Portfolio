@@ -425,11 +425,12 @@ input, textarea {
         top: -25px;
         display: block;
         text-align: center;
-        height: 55px;
+        height: 9vw;
+        /*height: 55px;*/
         width: 100%;
         /*padding: calc(7% - 2vw) 0 1vw;*/
         /*padding: calc(5vw - 10px) 0 3px;*/
-        padding: 17px 0 3px;
+        padding: 14px 0 0;
     }
 
     .header-right {
