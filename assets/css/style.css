@@ -177,7 +177,7 @@ and looked wrong to me*/
 }
 
 #contact-form-container {
-    padding: 0 0 0 30px;
+    margin-left: 30px;
 }
 
 #contact-form {
@@ -435,7 +435,12 @@ input, textarea {
     }
 
     input, textarea {
-        width: 488px;
+        width: 100%;
+    }
+
+    #contact-form-container {
+        box-sizing: border-box;
+        padding-right: 52px;
     }
 
     .project-title, .portfolio-picture {
@@ -449,8 +454,8 @@ input, textarea {
     .project-title {
         padding: 20px 0;
         width: auto;
-        right: 0px;
-        left: 0px;
+        right: 0;
+        left: 0;
     }
 
     .row {
