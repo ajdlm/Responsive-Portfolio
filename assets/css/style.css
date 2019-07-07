@@ -467,6 +467,21 @@ input, textarea {
         padding: 0;
     }
 
+    input[type=text] {   
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    
+/*
+        border-radius: 15px;
+        border: 1px dashed #BBB;
+        padding: 10px;
+        line-height: 20px;
+        text-align: center;
+        background: transparent;
+        outline: none;    */
+    }
+
     .project-container {
         margin-right: 0;
         width: 100%;
