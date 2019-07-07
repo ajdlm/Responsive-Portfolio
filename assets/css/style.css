@@ -411,7 +411,7 @@ input, textarea {
 
     .container {
         width: 100%;
-        margin-top: 12vw;
+        margin-top: 13vw;
     }
 
     .header-heading-container {
@@ -428,7 +428,7 @@ input, textarea {
         text-align: center;
         height: 9vw;
         width: 100%;
-        padding: 20px 0 7px;
+        padding: 23px 0 10px;
     }
 
     .header-right {
@@ -438,7 +438,7 @@ input, textarea {
         vertical-align: bottom;
         width: 100%;
         text-align: center;
-        padding-top: 5.5vw;
+        padding-top: calc(5.5vw + 3.5px);
         padding-bottom: 4vw;
         border-bottom: 2px solid #cccccc;
     }
