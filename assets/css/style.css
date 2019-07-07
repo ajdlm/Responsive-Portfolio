@@ -427,7 +427,7 @@ input, textarea {
         text-align: center;
         height: 55px;
         width: 100%;
-        padding: calc(42px - 3vw) 0 3px;
+        padding: calc(5% - 1.5vw) 0 1vw;
         /*padding: calc(5vw - 10px) 0 3px;*/
         /*padding: 17px 0 3px;*/
     }
@@ -468,6 +468,19 @@ input, textarea {
         width: auto;
         right: 0;
         left: 0;
+    }
+
+    #profile-picture-container {
+        height: 420px;
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+
+    #profile-picture {
+        float: none;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0 30px;
     }
 
     .row {
