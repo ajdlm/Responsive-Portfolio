@@ -397,7 +397,7 @@ input, textarea {
     }
 
     header {
-        height: 16vw;
+        height: calc(15vw + 5px);
         overflow: visible;
     }
 
