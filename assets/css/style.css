@@ -435,7 +435,7 @@ input, textarea {
     }
 
     input, textarea {
-        width: auto;
+        width: 100%;
     }
 
     #contact-form-container {
