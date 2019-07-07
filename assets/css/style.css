@@ -386,6 +386,8 @@ input, textarea {
     html, body {
         max-width: 640px;
         min-width: 1px;
+        overflow-x: hidden;
+        overflow-y: auto;
     }
 
     header {
