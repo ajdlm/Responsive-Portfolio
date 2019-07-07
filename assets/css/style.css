@@ -388,6 +388,14 @@ input, textarea {
         min-width: 1px;
     }
 
+    h1 {
+        font-size: 26px;
+    }
+
+    .right-link, p {
+        font-size: 15.5px;
+    }
+
     header {
         overflow: visible;
     }
