@@ -440,16 +440,17 @@ input, textarea {
 
     .project-title, .portfolio-picture {
         margin: 0 30px;
-        width: 87.255%;
-        /*width: 502.5px;*/
     }
 
-    .porfolio-picture {
-        position: absolute;
+    .portfolio-picture {
+        width: 100%;
     }
 
     .project-title {
         padding: 20px 0;
+        width: auto;
+        right: 0px;
+        left: 0px;
     }
 
     .row {
@@ -461,8 +462,10 @@ input, textarea {
     }
 
     .project-container {
+        margin-right: 60px;
         width: 100%;
-        padding: 18px 0 0;
+        padding: 18px 60px 0 0;
+        box-sizing: border-box;
         margin-bottom: 27px;
     }
 }
