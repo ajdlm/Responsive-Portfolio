@@ -438,7 +438,7 @@ input, textarea {
         vertical-align: bottom;
         width: 100%;
         text-align: center;
-        padding-top: calc(5.5vw + 2.5px);
+        padding-top: calc(6vw + 3px);
         padding-bottom: 4vw;
         border-bottom: 2px solid #cccccc;
     }
