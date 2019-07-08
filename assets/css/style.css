@@ -428,12 +428,12 @@ input, textarea {
         text-align: center;
         height: 9vw;
         width: 100%;
-        padding: 21px 0 10px;
+        padding: 21px 0 12px;
     }
 
     .header-right {
         float: none;
-        margin-top: 9.5vw;
+        margin-top: 10vw;
         display: inline-block;
         vertical-align: bottom;
         width: 100%;
