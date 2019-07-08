@@ -470,8 +470,8 @@ input, textarea {
     }
 
     #profile-picture-container {
-        height: 400px;
-        margin-bottom: 20px;
+        height: 75vw;
+        margin-bottom: 5vw;
         overflow: hidden;
     }
 
