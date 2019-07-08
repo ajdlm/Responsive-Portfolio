@@ -389,7 +389,7 @@ input, textarea {
     }
 
     h1 {
-        font-size: 5.25vw;
+        font-size: 6vw;
     }
 
     .right-link, p {
@@ -428,7 +428,7 @@ input, textarea {
         text-align: center;
         height: 9vw;
         width: 100%;
-        padding: 23px 0 10px;
+        padding: 21px 0 10px;
     }
 
     .header-right {
@@ -438,7 +438,7 @@ input, textarea {
         vertical-align: bottom;
         width: 100%;
         text-align: center;
-        padding-top: calc(5.5vw + 3.5px);
+        padding-top: calc(5.5vw + 2.5px);
         padding-bottom: 4vw;
         border-bottom: 2px solid #cccccc;
     }
